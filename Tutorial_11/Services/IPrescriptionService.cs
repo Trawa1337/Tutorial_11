@@ -1,6 +1,8 @@
-﻿namespace Tutorial_11.Services;
+﻿using Tutorial_11.DTO_s;
 
-public class IPrescriptionService
+namespace Tutorial_11.Services;
+
+public interface IPrescriptionService
 {
-    
+    Task AddPrescriptionAsync(AddPrescriptionDTO dto);
 }

@@ -1,6 +1,6 @@
 ﻿namespace Tutorial_11.DTO_s;
 
-public class PatientGetDTO
+public class PatientDto
 {
     public int PatientId { get; set; }
     public string FirstName { get; set; }
